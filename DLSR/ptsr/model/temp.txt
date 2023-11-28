@@ -1,0 +1,6 @@
+For X2 Without PA & CA
+  [MyData x2]     PSNR: 23.939 @iter 50 (Best: 23.939 @iter 50)
+
+
+For X2 With PA & CA
+  [MyData x2]     PSNR: 24.370 @iter 50 (Best: 24.370 @iter 50)

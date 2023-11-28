@@ -1,0 +1,18 @@
+SYSTEM:
+  NUM_GPU: 1
+  NUM_CPU: 2
+MODEL:
+  N_RESBLOCKS: 20
+  N_RESGROUPS: 10
+  BLOCK_TYPE: rcan_block
+  PLANES: 64
+  SE_REDUCTION: 16
+  ACT_MODE: silu # change activation
+  OUT_CONV: True
+SOLVER:
+  NAME: Lamb
+  BASE_LR: 0.0032 # 8e-4
+  SAMPLES_PER_BATCH: 2
+  ITERATION_TOTAL: 15000 # longer training
+  ITERATION_SAVE: 3000 
+  TEST_EVERY: 3000

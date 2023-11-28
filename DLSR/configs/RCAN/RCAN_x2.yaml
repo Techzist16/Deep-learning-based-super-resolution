@@ -1,0 +1,12 @@
+DATASET:
+  DATA_SCALE: [2]
+  OUT_PATCH_SIZE: 96
+LOG:
+  SAVE: RCAN_x2
+DATASET:
+  DATA_EXT: bin
+  DATA_DIR: ../rcan-it/
+  DATA_TRAIN: ['MyData']
+  DATA_VAL: ['MyData']
+  DATA_TEST: ['MyData_Test']
+  DATA_RANGE: [[1, 9410], [9411, 11002]]
